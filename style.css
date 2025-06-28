@@ -13,7 +13,7 @@
   width: 60%;
   margin: 3% auto;
   border: 0.1px solid #b4b1b1;
-   background-color: rgba(71, 46, 191, 0.618);
+  background-color: rgba(71, 46, 191, 0.618);
   height: 85vh;
 }
 
@@ -56,7 +56,8 @@ h3 {
   padding: 0.6rem;
   outline: none;
 }
-input::placeholder{
+
+input::placeholder {
   color: white;
 }
 
@@ -298,308 +299,164 @@ input::placeholder{
 }
 
 
-/* RESPONSIVE */
-/* Mobile Responsive Styling  FOR MOBILE*/
-@media (max-width: 426px) {
-  .logo>img {
-    margin-top: -20px;
-    width: 5px;
-  }
-
-  .outerbox {
-    width: 95%;
-    margin: 4% auto;
-    height: 95vh;
-    padding: 1rem;
-  }
-
-  .quiz-contianer {
-    width: 100%;
-    margin: 2% auto;
-    height: 99%;
-    border-radius: 10px;
-    padding: 1rem;
-  }
-
-  h1 {
-    margin-top: -8px;
-    font-size: 1rem;
-  }
-
-  h3 {
-    font-size: 0.7rem;
-  }
-
-  #name {
-    width: 90%;
-    height: 2.4rem;
-    font-size: 0.7rem;
-  }
-
-  #notice {
-    margin-top: -0px;
-  }
-
-  #start-btn {
-    width: 90%;
-    margin-top: 10px;
-    height: 2.4rem;
-  }
-
-  #welcome-note {
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-
-  #imgline>#lime {
-    margin-top: -100px;
-  }
+/* RESPONSIVE DESIGN */
 
 
-  #category-btn {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 20px;
-    justify-content: center;
-  }
-
-  #category-btn button {
-    margin-top: -10px;
-    width: 100%;
-    font-size: 0.8rem;
-    height: 1.8rem;
-  }
-
-  .optionDiv ul {
-    grid-template-columns: 1fr;
-    gap: 1px;
-    margin: 1rem 0;
-  }
-
-  .optionDiv ul li {
-    font-size: 0.6rem;
-    padding: 10px;
-  }
-
-  #next-btn {
-    width: 30%;
-    padding: 0.5rem;
-    font-size: 0.6rem;
-    margin-top: -5px;
-    height: 2rem;
-  }
-
-  #finalHeading {
-    font-size: 1rem;
-    height: auto;
-    padding: 1rem;
-    margin-top: 30px;
-  }
-
-  #finalPara {
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  #finalSec {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.3rem;
-    font-size: 0.4rem;
-  }
-
-  #finalBtn {
-    width: 45%;
-    font-size: 0.9rem;
-  }
-
-  #finalBtnSec {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-  }
-
-  #finalBtnSec>button {
-    font-size: 0.7rem;
-  }
-
-  .timerScore {
-    flex-direction: column;
-    align-items: center;
-    margin-top: -2px;
-  }
-
-  .questionDiv {
-    padding: 0.5rem;
-    font-size: 0.6rem;
-    text-align: center;
-    margin-top: -20px;
-  }
-
-  #timer,
-  #live-score {
-    font-size: 0.7rem;
-    margin-top: -12px;
-  }
-}
-
-@media(max-width:321px) {
-  #finalSec {
-    font-size: 0.4rem;
-  }
-}
-
-/* Mobile Responsive Styling  FOR TABLET*/
-@media (max-width: 924PX) {
-  .logo>img {
-    margin-top: -15px;
-    width: 70px;
-  }
-
-  .outerbox {
-    width: 85%;
-    margin: 4% auto;
-    height: 95vh;
-    padding: 1rem;
-  }
-
-  .quiz-contianer {
-    width: 100%;
-    margin: 2% auto;
-    height: 99%;
-    border-radius: 10px;
-    padding: 1rem;
-  }
-
-  h1 {
-    margin-top: -8px;
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    margin-top: -1px;
-    font-size: 0.8rem;
-  }
-
-  #name {
-    width: 90%;
-    height: 2rem;
-    font-size: 0.7rem;
-  }
-
-  #notice {
-    margin-top: -20px;
-    font-size: 0.8rem;
-  }
-
-  #start-btn {
-    width: 90%;
-    margin-top: 20px;
-    height: 2rem;
-    font-size: 0.7rem;
-  }
-
-  #welcome-note {
-    font-size: 1.1rem;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-
-  #Category {
-    margin-top: 1px;
-  }
-
-  #category-btn {
-    row-gap: 15px;
-    justify-content: center;
-    padding: 1rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: -6px;
-  }
-
-  #category-btn button {
-    width: 95%;
-    font-size: 0.8rem;
-    height: 2rem;
-  }
-
-  .optionDiv ul {
-    margin-top: -1px;
-    gap: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .optionDiv ul li {
-    font-size: 0.6rem;
-    padding: 10px;
-    width: 90%;
-  }
-
-  .category-heading {
-    font-size: 1.5rem;
-  }
-
-  #next-btn {
-    margin-top: -15px;
-    width: 30%;
-    font-size: 0.5rem;
-    height: auto;
-  }
-
-  #finalHeading {
-    font-size: 1.8rem;
-    height: auto;
-    padding: 1rem;
-  }
-
-  #finalPara {
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
-
-  #finalSec {
-    font-size: 1rem;
-  }
-
-  #finalBtn {
-    width: 40%;
-    height: 1.8rem;
-  }
-
-  #finalBtnSec>button {
-    font-size: 0.6rem;
-  }
-
-  .questionDiv {
-    padding: 0.5rem;
-    font-size: 0.6rem;
-  }
-
-  #timer,#live-score {
-    font-size: 0.8rem;
-  }
-}
-
-/* Media Query for 1024px screens (small laptops, iPads in landscape) */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .outerbox {
     width: 80%;
     height: 90vh;
     padding: 1rem;
+    margin:  3% auto;
   }
 
   .quiz-contianer {
     width: 100%;
+    margin: auto;
+    height: 98%;
     padding: 1rem;
-    height: 95%;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-top: -20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: -10px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-top: 0px;
+  }
+
+  #name{
+    width: 80%;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color:rgba(71, 46, 191, 0.618);;
+  }
+  #name::placeholder{
+    font-size: 0.9rem;
+  }
+
+  #start-btn {
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
+  }
+
+  #welcome-note {
+    font-size: 1.2rem;
+    margin-top: -0px;
+  }
+
+  #notice {
+    font-size: 0.9rem;
+  }
+
+  #category-btn {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+   #Category{
+    margin-top: 10px;
+   }
+
+  #category-btn button {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .questionDiv {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .optionDiv ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 1rem;
+
+  }
+
+  .optionDiv ul li {
+    font-size: 1rem;
+    margin-top: -10px;
+    padding: 0.8rem;
+  }
+
+  #next-btn {
+    width: 20%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: auto;
+  }
+
+  #finalHeading {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #finalPara {
+    font-size: 1.5rem;
+    margin-top: -40px;
+  }
+
+  #finalSec {
+    font-size: 1rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+ 
+  #finalBtnSec{
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  #finalBtnSec > button {
+    font-size: 0.9rem;
+    width: 20%;
+  }
+
+  .timerScore {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -0.5rem;
+  }
+
+  #timer, #live-score {
+    font-size: 1rem;
+  }
+}
+
+
+/* MOBILE SCREEN */
+
+@media (max-width: 426px) {
+  .outerbox {
+    width: 100%;
+    height: 100vh;
+    /* padding: 1rem; */
+    margin: 0;
+  }
+
+  .quiz-contianer {
+    width: 100%;
+    margin: auto;
+    height: 98%;
+    padding: 1rem;
   }
 
   .logo img {
@@ -607,27 +464,35 @@ input::placeholder{
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   #name {
-    width: 85%;
-    height: 2.2rem;
+    width: 80%;
+    height: 1.9rem;
+    font-size: 1rem;
+    color: white;
+    background-color:rgba(71, 46, 191, 0.618);;
+  }
+  input::placeholder{
     font-size: 0.9rem;
+    text-align: center;
   }
 
   #start-btn {
-    width: 6rem;
-    height: 2.2rem;
-    font-size: 0.9rem;
+    margin-top: 10px;
+    width: 5rem;
+    height: 1.9rem;
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
   }
 
   #welcome-note {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   #notice {
@@ -635,64 +500,372 @@ input::placeholder{
   }
 
   #category-btn {
-    grid-template-columns: repeat(2, 140px);
-    column-gap: 5%;
-    row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
   }
 
-  #category-btn button {
+   #Category{
+    margin-top: 10px;
+   }
+
+  #Category-btn button {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .questionDiv {
+    padding: 1rem;
     font-size: 0.9rem;
-    height: 2rem;
+    text-align: center;
   }
 
   .optionDiv ul {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 1rem;
+
   }
 
   .optionDiv ul li {
-    font-size: 0.8rem;
-    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    padding: 0.8rem;
   }
 
   #next-btn {
-    width: 35%;
-    height: 2.2rem;
-    font-size: 0.9rem;
+    width: 20%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    height: auto;
   }
 
   #finalHeading {
     font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
   }
 
   #finalPara {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-top: -40px;
   }
 
   #finalSec {
-    font-size: 1rem;
-    flex-direction: row;
-    gap: 1rem;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 5rem;
   }
 
-  #finalBtn {
-    font-size: 1rem;
-    height: 2rem;
-    width: 35%;
+ 
+  #finalBtnSec {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  #finalBtnSec > button {
+    font-size: 0.9rem;
+     width: 30%;
+    background-color: #3c3cc7;
+    width: 30%;
   }
 
   .timerScore {
-    font-size: 0.9rem;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .questionDiv {
-    font-size: 0.9rem;
+    margin-top: -0.5rem;
   }
 
   #timer,
   #live-score {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
+
+/* small screen mobile */
+
+@media (max-width: 321px) {
+  .outerbox {
+    width: 100%;
+    height: 100vh;
+    /* padding: 1rem; */
+    margin: 0;
+  }
+
+  .quiz-contianer {
+    width: 100%;
+    margin: auto;
+    height: 98%;
+    padding: 1rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #name {
+    width: 80%;
+    height: 1.9rem;
+    font-size: 0.7rem;
+    color: white;
+    background-color:rgba(71, 46, 191, 0.618);;
+  }
+  input::placeholder{
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  #start-btn {
+    margin-top: 10px;
+    width: 5rem;
+    height: 1.9rem;
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
+  }
+
+  #welcome-note {
+    font-size: 1rem;
+  }
+
+  #notice {
+    font-size: 0.8rem;
+    margin-top: -0px;
+  }
+
+  #category-btn {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+   #Category{
+    margin-top: 10px;
+   }
+
+  #Category-btn button {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .questionDiv {
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .optionDiv ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 1rem;
+
+  }
+
+  .optionDiv ul li {
+    font-size: 0.8rem;
+    margin-top: -10px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #next-btn {
+    width: 20%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    height: auto;
+  }
+
+  #finalHeading {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #finalPara {
+    font-size: 1rem;
+    margin-top: -30px;
+  }
+
+  #finalSec {
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+ 
+  #finalBtnSec {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  #finalBtnSec > button {
+    font-size: 0.7rem;
+    width: 30%;
+    background-color: #3c3cc7;
+    color: white;
+  }
+
+  .timerScore {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -0.5rem;
+  }
+
+  #timer,
+  #live-score {
+    font-size: 0.8rem;
+  }
+}
+
+/* for 769px */
+
+@media (max-width: 769px) {
+  .outerbox {
+    width: 100%;
+    height: 100vh;
+    /* padding: 1rem; */
+    margin: 0px auto;
+  }
+
+  .quiz-contianer {
+    width: 100%;
+    margin: auto;
+    height: 98%;
+    padding: 1rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #name {
+    width: 80%;
+    height: 1.9rem;
+    font-size: 0.7rem;
+    color: white;
+    background-color:rgba(71, 46, 191, 0.618);;
+  }
+  input::placeholder{
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  #start-btn {
+    margin-top: 10px;
+    width: 5rem;
+    height: 1.9rem;
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
+  }
+
+  #welcome-note {
+    font-size: 1rem;
+  }
+
+  #notice {
+    font-size: 0.8rem;
+    margin-top: -0px;
+  }
+
+  #category-btn {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+   #Category{
+    margin-top: 10px;
+   }
+
+  #Category-btn button {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .questionDiv {
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .optionDiv ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 1rem;
+
+  }
+
+  .optionDiv ul li {
+    font-size: 0.8rem;
+    margin-top: -10px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #next-btn {
+    width: 20%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    height: auto;
+  }
+
+  #finalHeading {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #finalPara {
+    font-size: 1rem;
+    margin-top: -30px;
+  }
+
+  #finalSec {
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+ 
+  #finalBtnSec {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  #finalBtnSec > button {
+    font-size: 0.7rem;
+    width: 30%;
+    background-color: #3c3cc7;
+    color: white;
+  }
+
+  .timerScore {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -0.5rem;
+  }
+
+  #timer,
+  #live-score {
+    font-size: 0.8rem;
+  }
+}
+
