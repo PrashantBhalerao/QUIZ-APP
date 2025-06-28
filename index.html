@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerbox">
+        <div class="quiz-contianer">
+            <button id="next-btn" style="display: none;">Next</button>
+            <div class="logo">
+                <img src="./assets/quiz-logo.png">
+                <h1>Hello Learners !</h1>
+                <h3 id="note">Enter your name to continue the quiz</h3>
+                <form onsubmit="handleSubmit(event)">
+                    <input type="text" id="name" placeholder="Enter your name here" required>
+                    <button id="start-btn" type="submit">ENTER</button>
+                    <p id="welcome-note"></p>
+                    <p id="notice">You'll have 15 seconds to answer each question</p>
+                </form>
+                <div id="imgline">
+                    <img id="line" src="./assets/horizontal line.png" alt="">
+                </div>
+                <h1 id="Category">Select Category</h1>
+                <div id="category-btn">
+                    <button onclick="startQuiz('HTML')">HTML</button>
+                    <button onclick="startQuiz('CSS')">CSS</button>
+                    <button onclick="startQuiz('JavaScript')">JavaScript</button>
+                    <button onclick="startQuiz('React')">React</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
