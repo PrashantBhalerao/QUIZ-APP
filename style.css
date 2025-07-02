@@ -20,7 +20,7 @@
 .quiz-contianer {
   width: 95%;
   margin: 4% auto;
-  height: 90%;
+  height: 88%;
   text-align: center;
   background-color: white;
   border-radius: 20px;
@@ -140,9 +140,9 @@ input::placeholder {
   transition: all 0.3s;
 }
 
-.quiz-contianer li:hover {
+/* .quiz-contianer li:hover {
   background: #ddd;
-}
+} */
 
 #next-btn {
   margin-top: 20px;
@@ -305,15 +305,15 @@ input::placeholder {
 @media (max-width: 1025px) {
   .outerbox {
     width: 80%;
-    height: 90vh;
+    height: 85vh;
     padding: 1rem;
     margin:  3% auto;
   }
 
   .quiz-contianer {
     width: 100%;
-    margin: auto;
-    height: 98%;
+    margin:  2% auto;
+    height: 95%;
     padding: 1rem;
   }
 
@@ -371,7 +371,8 @@ input::placeholder {
    }
 
   #category-btn button {
-    width: 100%;
+    margin-left: 3rem;
+    width: 70%;
     height: 2.5rem;
     font-size: 1rem;
   }
@@ -448,7 +449,6 @@ input::placeholder {
   .outerbox {
     width: 100%;
     height: 100vh;
-    /* padding: 1rem; */
     margin: 0;
   }
 
