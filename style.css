@@ -80,7 +80,7 @@ input::placeholder {
 }
 
 #notice {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 0.8rem;
   font-weight: 500;
   color: #9d9b9b;
@@ -104,12 +104,6 @@ input::placeholder {
   width: 65%;
   padding: 0 1rem;
   box-sizing: border-box;
-  /* margin-top: 30px;
-  display: grid;
-  justify-content: center;
-  column-gap: 10%;
-  row-gap: 55%;
-  grid-template-columns: repeat(2, 150px); */
 }
 
 #start-btn:hover {
@@ -147,9 +141,6 @@ input::placeholder {
   transition: all 0.3s;
 }
 
-/* .quiz-contianer li:hover {
-  background: #ddd;
-} */
 
 #next-btn {
   margin-top: 20px;
@@ -284,12 +275,6 @@ input::placeholder {
   transition: background-color 0.3s;
   border: 1px solid #ccc;
 }
-
-.optionDiv ul li:hover {
-  background: linear-gradient(to right, #6b6bf2, #8fa9f7);
-  color: white;
-}
-
 
 #next-btn {
   height: 2.5rem;
