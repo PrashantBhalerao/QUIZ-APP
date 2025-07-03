@@ -36,7 +36,8 @@ A dynamic and interactive **Quiz Web Application** built using **HTML**, **CSS**
    - Option to restart the quiz is available.
 
 ## 📸 Screenshots
-![Screenshot 2025-06-28 195701](https://github.com/user-attachments/assets/dd879322-7206-48ef-8d3c-a3d98cab7525)
+![Screenshot 2025-07-03 191231](https://github.com/user-attachments/assets/38e60ec0-bb30-4b6f-80be-266f420664f7)
+
 
 ## 🛠️ Technologies Used
 
