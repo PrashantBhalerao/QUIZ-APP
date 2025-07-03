@@ -28,7 +28,7 @@
 
 .logo img {
   width: 100px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -312,7 +312,6 @@ input::placeholder {
 
   .logo img {
     width: 100px;
-    margin-top: -20px;
   }
 
   h1 {
